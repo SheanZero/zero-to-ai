@@ -20,6 +20,7 @@ The intent: turn “I know how to use AI” into “I can use AI reliably, quick
 ---
 
 ## Repository structure (suggested)
+```
 zero-to-ai/
 ├─ README.md
 ├─ LICENSE
@@ -31,7 +32,7 @@ zero-to-ai/
 ├─ 05-resources/               # curated resources & tool index
 ├─ 06-experiments/             # benchmarks, comparisons, eval notes
 └─ 99-archive/                 # deprecated / backlog
-
+```
 ---
 
 ## Quick start
@@ -78,7 +79,7 @@ Each note tries to answer:
 - Pitfalls:
 ```
 
-⸻
+---
 
 ## Roadmap
 	•	Prompt & agent patterns library
@@ -88,7 +89,7 @@ Each note tries to answer:
 	•	Multimodal workflows: image/audio/video + structured outputs
 	•	Automation: scripts and repeatable pipelines
 
-⸻
+---
 
 ## Contributing
 
@@ -97,12 +98,12 @@ This is primarily a personal repo, but PRs are welcome for:
 	•	stronger patterns or checklists
 	•	high-quality resources (with short notes: who it’s for, pros/cons, cost)
 
-⸻
+---
 
 ## License
 MIT 
 
-⸻
+---
 
 ## Disclaimer
 
