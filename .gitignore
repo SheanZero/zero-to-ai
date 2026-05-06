@@ -1,0 +1,76 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI / ML artifacts
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+models/
+checkpoints/
+wandb/
+mlruns/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# OS / misc
+Thumbs.db
+desktop.ini
