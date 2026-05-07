@@ -1,0 +1,16 @@
+# szw - 机器特定配置（vault.path 等本机路径，不入版本控制）
+.zero/szw-config.local.json
+
+# szw - pause handoff（临时态，下次 resume 自动消费）
+.zero/.continue-here
+
+# szw - draft 增量写作历史（保留 INDEX.md 和首版快照即可）
+.zero/writing-history/*/0[2-9]-*.md
+.zero/writing-history/*/[1-9][0-9]-*.md
+
+# szw - 灵感碎片（按 fan.md §9.2 建议；可注释掉如想入版本）
+# inbox/pending/
+
+# 系统
+.DS_Store
+Thumbs.db

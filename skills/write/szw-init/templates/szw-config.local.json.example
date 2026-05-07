@@ -1,0 +1,6 @@
+{
+  "_comment": "Machine-specific config. Copy to .zero/szw-config.local.json. NEVER commit to git (added to .gitignore by /szw-init).",
+  "vault": {
+    "path": "/Users/<you>/path/to/your/vault"
+  }
+}

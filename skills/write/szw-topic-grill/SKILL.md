@@ -1,9 +1,9 @@
 ---
-name: topic-grill
-description: Stress-test a technical article topic before drafting. Use when preparing industry analysis, technical blog posts, product analysis, or programmer advice articles.
+name: szw-topic-grill
+description: Stress-test a technical article topic before drafting. Use when preparing industry analysis, technical blog posts, product analysis, or programmer advice articles. Wrapped by /szw-discuss as Phase 1 of the article pipeline; can also be used standalone for ad-hoc topic stress-testing outside an active column.
 ---
 
-# Topic Grill
+# szw-topic-grill
 
 Interview the user relentlessly about the article topic until the core thesis, target reader, evidence needs, and advice angle are clear.
 

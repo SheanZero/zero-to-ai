@@ -1,0 +1,59 @@
+{
+  "version": "1.1",
+  "model_profile": "balanced",
+  "writing_lang": "zh",
+  "default_platforms": ["blog", "wechat"],
+  "hooks": {
+    "pre_tool_use": true,
+    "post_tool_use": true,
+    "stop": true
+  },
+  "subagents": {
+    "evidence_researcher": "codex",
+    "claim_diagnoser": "codex",
+    "skeptical_reviewer": "codex"
+  },
+  "limits": {
+    "review_revision_max": 2,
+    "diagnose_revision_max": 2,
+    "quick_word_limit": 800
+  },
+  "style_capture": {
+    "enabled": true,
+    "diff_threshold_pct": 5,
+    "merge_after_n_reviews": 10,
+    "min_pattern_frequency": 3
+  },
+  "gates": {
+    "block_draft_on_missing_brief": true,
+    "block_publish_on_missing_review": true,
+    "auto_archive_grill_failed": false
+  },
+  "wiki": {
+    "enabled": false,
+    "schema_version": "1.2",
+    "ingest_batch_max": 5,
+    "ingest_pages_per_source_max": 15,
+    "lint_orphan_threshold_days": 180,
+    "auto_suggest_in_research": true,
+    "auto_suggest_in_discuss": true,
+    "evidence_confidence_default": "medium"
+  },
+  "vault": {
+    "wiki_subdir": "1-wiki",
+    "resources_subdir": "4-resources",
+    "incremental_default": true,
+    "snapshot_summary_chars": 200,
+    "icloud_skip_placeholders": true,
+    "import_conflict_strategy": "prompt"
+  },
+  "inbox": {
+    "sources_subdir": "sources",
+    "auto_migrate_on_ingest": true,
+    "delete_after_migration": true
+  },
+  "assets": {
+    "subdir": "assets",
+    "lint_orphan_check": true
+  }
+}
